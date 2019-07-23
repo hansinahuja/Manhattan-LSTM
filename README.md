@@ -20,7 +20,7 @@ A ~2% increase in accuracy was observed compared to the referenced article on ma
 - Cleaning the data was done using regular expressions, stopwords and PorterStemmer object from the NLTK library.
 - The embedding matrix was created using pretrained GloVe vectors.
 - The Embedding layer was made trainable.
-- Adam optimizer was used with a gradient clipping of norm = 1.5.
+- Adam optimizer was used with a gradient clipping norm = 1.5.
 - Binary crossentropy loss was used.
 
 ![Model plot](img/model_plot.png)
