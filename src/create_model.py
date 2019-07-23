@@ -63,7 +63,7 @@ def create(tokenizer):
     common_lstm_layer = tf.keras.layers.LSTM(n_units, name="common_lstm_layer")
     question1_output = common_lstm_layer(question1_encoded)
     question2_output = common_lstm_layer(question2_encoded)
-    manhattan_lstm_distance = tf.keras.layers.Lambda(function=lambda x: manh_lstm_distance(x[0], x[1]), name="manhattan_lstm_distance")([question1_output, question2_output])
+    manhattan_lstm_distance = tf.keras.layers.Lambda(lambda x: manh_lstm_distance(x[0], x[1]), name="manhattan_lstm_distance")([question1_output, question2_output])
     model = tf.keras.models.Model([question1, question2], manhattan_lstm_distance)
     loss = 'binary_crossentropy'
     optimizer = tf.keras.optimizers.Adam(clipnorm=clipnorm)
