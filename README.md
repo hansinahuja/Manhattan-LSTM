@@ -12,7 +12,7 @@ Implementation inspired by [this paper](http://www.mit.edu/~jonasm/info/MuellerT
 
 ## Description
 
-The detailed explanation of the model can be found in the aforementioned paper.
+The detailed explanation of the model can be found in the aforementioned paper. The model described in the paper:
 
 ![MaLSTM model](img/malstm.JPG)
 
@@ -23,4 +23,5 @@ A ~2% increase in accuracy was observed compared to the aforementioned article o
 - Adam optimizer was used with a gradient clipping norm = 1.5.
 - Binary crossentropy loss was used.
 
+Visualization of model returned by `./src/create_model.py`:
 ![Model plot](img/model_plot.png)
