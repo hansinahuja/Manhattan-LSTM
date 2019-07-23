@@ -24,4 +24,5 @@ A ~2% increase in accuracy was observed compared to the aforementioned article o
 - Binary crossentropy loss was used.
 
 Visualization of model returned by `./src/create_model.py`:
+
 ![Model plot](img/model_plot.png)
