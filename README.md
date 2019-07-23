@@ -1,6 +1,6 @@
 # manhattan-lstm
 
-Implementing Manhattan LSTM, a Siamese deep network to predict semantic similarity between pairs of Quora questions.
+Implementing Manhattan LSTM, a Siamese deep network to predict sentence to sentence semantic similarity.
 
 Implementation inspired by [this paper](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf) by Mueller & Thyagarajan, and this [this Medium article](https://medium.com/mlreview/implementing-malstm-on-kaggles-quora-question-pairs-competition-8b31b0b16a07) by Elior Cohen.
 
