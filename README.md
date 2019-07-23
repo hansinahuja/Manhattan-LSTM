@@ -10,11 +10,11 @@ Implementation inspired by [this paper](http://www.mit.edu/~jonasm/info/MuellerT
 - The dataset can be found in './dataset' or here: [Kaggle's Quora Question Pairs Dataset](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 - Pretrained GloVe vectors can be found in './pretrained_embeddings' or here: [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 
-# Description
+## Description
 
 The detailed explanation of the model can be found in the aforementioned paper.
 
-![MaLSTM model](img/malstm.png)
+![MaLSTM model](img/malstm.JPG)
 
 A ~2% increase in accuracy was observed compared to the referenced article on making a few changes and fine-tuning the model.
 - Cleaning the data was done using regular expressions, stopwords and PorterStemmer object from the NLTK library.
