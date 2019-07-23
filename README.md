@@ -16,7 +16,7 @@ The detailed explanation of the model can be found in the aforementioned paper.
 
 ![MaLSTM model](img/malstm.JPG)
 
-A ~2% increase in accuracy was observed compared to the referenced article on making a few changes and fine-tuning the model.
+A ~2% increase in accuracy was observed compared to the referenced article on making a few changes and fine-tuning the model. The major ones are as follows:
 - Cleaning the data was done using regular expressions, stopwords and PorterStemmer object from the NLTK library.
 - The embedding matrix was created using pretrained GloVe vectors.
 - The Embedding layer was made trainable.
