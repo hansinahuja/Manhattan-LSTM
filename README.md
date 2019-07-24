@@ -6,7 +6,7 @@ Implementation inspired by [this paper](https://www.semanticscholar.org/paper/Si
 
 ## A few links
 
-- Original research paper: [Siamese Recurrent Architectures for Learning Sentence Similarity](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf)
+- Original research paper: [Siamese Recurrent Architectures for Learning Sentence Similarity](https://www.semanticscholar.org/paper/Siamese-Recurrent-Architectures-for-Learning-Mueller-Thyagarajan/6812fb9ef1c2dad497684a9020d8292041a639ff)
 - The dataset can be found in `./dataset` or here: [Kaggle's Quora Question Pairs Dataset](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 - Pretrained GloVe vectors can be found in `./pretrained_embeddings` or here: [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 
