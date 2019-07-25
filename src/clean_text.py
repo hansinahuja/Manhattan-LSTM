@@ -2,12 +2,13 @@
 import re
 import nltk
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer 
 
 # Prerequisites for cleaning
 nltk.download("stopwords")                      # Download stopwords from NLTK library
+nltk.download('wordnet')                        # Download wordnet, a lexixal database from NLTK library
 stopwords = set(stopwords.words('english'))     # Store stopwords
-ps = PorterStemmer()                            # Create object for stemming
+lemmatizer = WordNetLemmatizer()                # Create object for lemmatization
 
 # Function for standard cleaning of text (remove punctuations, abbreviations, etc.) using regular expressions
 def standard_clean(text):
@@ -53,17 +54,17 @@ def remove_stopwords(text):
       clean = clean + " " + w
   return str(clean[1:])
 
-# Function to stem words of a sentence using PorterStemmer object
-def stem(text):
+# Function to lemmatize words of a sentence using Lemmatizer object
+def lemmatize(text):
   text = text.split()
   clean = ""
   for w in text:
-    clean = clean + " " + ps.stem(w)
+    clean = clean + " " + lemmatizer.lemmatize(w)
   return str(clean[1:])
 
 # Function to clean the text
 def clean(text):
   text = standard_clean(text)
   text = remove_stopwords(text)
-  text = stem(text)
+  text = lemmatize(text)
   return text
