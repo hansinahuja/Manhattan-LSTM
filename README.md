@@ -1,4 +1,4 @@
-# manhattan-lstm
+# Manhattan-LSTM
 
 Implementing Manhattan LSTM, a Siamese deep network to predict sentence to sentence semantic similarity.
 
