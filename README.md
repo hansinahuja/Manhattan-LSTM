@@ -2,11 +2,11 @@
 
 Implementing Manhattan LSTM, a Siamese deep network to predict sentence to sentence semantic similarity.
 
-Implementation inspired by [this paper](https://www.semanticscholar.org/paper/Siamese-Recurrent-Architectures-for-Learning-Mueller-Thyagarajan/6812fb9ef1c2dad497684a9020d8292041a639ff) by Mueller & Thyagarajan, and this [this Medium article](https://medium.com/mlreview/implementing-malstm-on-kaggles-quora-question-pairs-competition-8b31b0b16a07) by Elior Cohen.
+Implementation inspired by [this paper](paper.pdf) by Mueller & Thyagarajan, and this [this Medium article](https://medium.com/mlreview/implementing-malstm-on-kaggles-quora-question-pairs-competition-8b31b0b16a07) by Elior Cohen.
 
 ## A few links
 
-- Original research paper: [Siamese Recurrent Architectures for Learning Sentence Similarity](https://www.semanticscholar.org/paper/Siamese-Recurrent-Architectures-for-Learning-Mueller-Thyagarajan/6812fb9ef1c2dad497684a9020d8292041a639ff)
+- Original research paper: [Siamese Recurrent Architectures for Learning Sentence Similarity](paper.pdf)
 - The dataset can be found in `./dataset` or here: [First Quora Dataset Release: Question Pairs](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 - Pretrained GloVe vectors can be found in `./pretrained_embeddings` or here: [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 
